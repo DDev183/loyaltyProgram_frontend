@@ -1,10 +1,41 @@
+
+.MuiPaper-root {
+}
+
 .App {
   text-align: center;
+}
+
+
+
+.App-header-menu {
+  background-color: #121212;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 2%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+.text-color1 {
+  color: #0077b6;
+}
+
+.text-color2 {
+  color: #0077B6;
+}
+
+.block-color1 {
+  color: #0096c7
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +45,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #121212;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
